@@ -1,0 +1,133 @@
+body {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    flex-direction: absolute;
+    padding: 0 50px;
+    font-size: 18px;
+}
+
+.menubar {
+    display: flex;
+   flex-direction: row;
+    list-style-type: none;
+    text-align:center;
+    margin: 30px;
+    padding: 20px;
+    gap: 30px;
+    border-right: 1px solid antiquewhite;
+    width: 20%;
+}
+
+.more {
+    margin-top: 100px;
+}
+section.wrapper_image {
+   margin-bottom: 30px;
+   position: relative;
+   display: grid;
+   align-self: flex-start;
+}
+.top_line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.p {
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    gap: 10px;
+    padding: 15px;
+    margin: 10px;
+}
+
+main {
+    margin: 30px;
+}
+li {
+    display: flex;
+    gap: 16px;
+}
+
+.profile_image img {
+    border-radius: 50%;
+}
+.topic1 {
+    display: flex;
+    border-radius: 10px;
+    border: 2px solid antiquewhite;
+    width: 600px;
+    flex-direction: row;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.topic2 {
+    display: flex;
+    border-radius: 10px;
+    border: 2px solid antiquewhite;
+    width: 600px;
+    flex-direction: row;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.topic3 {
+    display: flex;
+    border-radius: 10px;
+    border: 2px solid antiquewhite;
+    width: 600px;
+    flex-direction: row;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 16px;
+
+}
+
+.topic4 {
+    display: flex;
+    border-radius: 10px;
+    border: 2px solid antiquewhite;
+    width: 600px;
+    flex-direction: row;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.div {
+    display: block;
+}
+
+.owner_info img{
+    border-radius: 50%;
+    
+}
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-between;
+}
+.suggestion_content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    position: relative;
+    gap: 30px;
+}
+
+ ul {
+    display: flex;
+    text-align-last: left;
+    gap: 10px;
+    grid-template-rows: auto;
+}
+
+
+
+
